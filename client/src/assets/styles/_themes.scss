@@ -1,0 +1,66 @@
+.btn {
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s opacity;
+    list-style: none;
+    text-decoration: none;
+
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+}
+
+.btn-secondary {
+    background-color: #2980b9;
+    color: white;
+    border: 2px solid #2980b9;
+}
+
+.btn-reverse-primary {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    background-color: white;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+input {
+    border-radius: 4px;
+    border: var(--border-radius);
+    padding: 10px 15px;
+}
+
+.selected {
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.form-error {
+    font-size: small;
+    color : red;
+}
